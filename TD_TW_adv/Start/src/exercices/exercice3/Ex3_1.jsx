@@ -35,7 +35,7 @@ function Button({ variant = "primary", size = "medium", className, ...rest }) {
 export default function Ex3_1() {
   return (
     <div className="grid h-screen place-content-center">
-      <Button>Click</Button>
+      <Button variant="danger" size="large">Click</Button>
     </div>
   );
 }
